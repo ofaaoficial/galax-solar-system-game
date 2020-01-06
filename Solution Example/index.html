@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Galax - Solar System</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+  <!-- Alert Modal (Start) -->
+  <section class="modal" id="modal-start">
+    <article class="content">
+      <figure class="logo"></figure>
+      <h1><span>WEL</span>COME</h1>
+      <p>Welcome to the Galax!, In this game you will visit some planets from solar system.</p>
+      <p>!You must use the keys <strong>“LEFT”</strong> and <strong>“RIGHT”</strong> to the spacecraft can dodge asteroids.</p>
+      <p>You must use the <strong>“SPACE”</strong> to shoot and destroy asteroids.</p>
+      <p>Your goal is to reach the end of the space travel, dodging all the asteroids or
+          destroying them.</p>
+          <br>
+      <button class="btn" id="start">START</button>
+    </article>
+  </section>
+  <!-- Alert Modal (GameOver) -->
+  <section class="modal hide" id="modal-gameover">
+    <article class="content">
+      <figure class="logo"></figure>
+      <h1><span>GAME</span>OVER</h1>
+      <p>You didn’t visited all the planets of solar system...</p>
+      <p>Try again!</p>
+      <br>
+      <button class="btn" id="restart-gameover">RESTART</button>
+    </article>
+  </section>
+  <!-- Alert Modal (End) -->
+  <section class="modal hide" id="modal-end">
+    <article class="content">
+      <figure class="logo"></figure>
+      <h1><span>CONGRATU</span>LATIONS</h1>
+      <p>You already visited planets from solar system!</p>
+      <p>You can play and visit again pressing the Restart Button!</p>
+      <br>
+      <button class="btn" id="restart-end">RESTART</button>
+    </article>
+  </section>
+
+  <main id="view">
+		<section id="bg">
+      <nav id="centralpath">
+        <div id="path1" class="paths">
+          <figure class="asteroids" id="asteroid1"></figure>
+        </div>
+        <div id="path2" class="paths">
+          <figure class="asteroids" id="asteroid2"></figure>
+          <figure id="spacecraft"></figure>
+        </div>
+        <div id="path3" class="paths">
+          <figure class="asteroids" id="asteroid3"></figure>
+        </div>
+      </nav>
+      <nav id="planets">
+        <div id="uranus"></div>
+        <div id="saturn"></div>
+        <div id="jupiter"></div>
+        <div id="mars"></div>
+        <div id="earth"></div>
+      </nav>
+		</section>
+    <section id="stars"></section>
+	</main>
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,313 @@
+/* ---------------------------------------------------
+FILENAME:     master.css
+CONTENT:      containt styles for module of clientside B in competition
+DAY:          01
+
+MODULE:       module clientside B
+DATE:         12/10/2015
+
+COMPETITOR: 
+SKILL:        17 Web Design
+NAME:
+DEPARTMENT:
+COUNTRY:      Colombia
+-------------------------------------------------- */
+
+/* -------------------------------------------------
+D o c u m e n t
+-------------------------------------------------- */
+body {
+  background-color: #110f27;
+  font-family: 'Roboto-Light';
+  margin: 0px;
+}
+/* -------------------------------------------------
+M a i n # v i e w
+-------------------------------------------------- */
+main#view {
+			margin: 0px auto;
+			width: 1280px;
+      height: 640px;
+      overflow: hidden;
+}
+/* -------------------------------------------------
+S e c t i o n # b g
+-------------------------------------------------- */
+section#bg {
+  background: url(../imgs/solarsystem.png) no-repeat center center;
+			height: 6000px;
+			margin: 0px auto;
+			position: relative;
+			width: 1280px;
+      top: -5356px;
+}
+/* -------------------------------------------------
+N a v # c e n t r a l p a t h
+-------------------------------------------------- */
+nav#centralpath {
+  margin: 0px auto;
+  width: 610px;
+}
+/* -------------------------------------------------
+D i v . p a t h s
+-------------------------------------------------- */
+div.paths {
+  display: inline-block;
+  height: 6000px;
+  width: 200px;
+}
+div#path1 {
+
+}
+div#path2 {
+
+}
+div#path3 {
+
+}
+/* -------------------------------------------------
+F i g u r e # s p a c e c r a f t
+-------------------------------------------------- */
+figure#spacecraft {
+  background: transparent url(../imgs/spacecraft.png) no-repeat center center;
+  height: 96px;
+  margin: 0px auto;
+  position: fixed;
+  left: 600px; top: 540px;
+  width: 78px;
+}
+/* -------------------------------------------------
+N a v # p l a n e t s
+-------------------------------------------------- */
+nav#planets {
+  position: absolute;
+}
+/* -------------------------------------------------
+N a v # p l a n e t s   d i v
+-------------------------------------------------- */
+nav#planets div {
+  position: relative;
+}
+/* -------------------------------------------------
+D i v # u r a n u s
+-------------------------------------------------- */
+div#uranus {
+  background: transparent url(../imgs/uranus_text.png) no-repeat center center;
+  height: 228px;
+  top: -620px; left: 858px;
+  width: 419px;
+}
+/* -------------------------------------------------
+D i v # s a t u r n
+-------------------------------------------------- */
+div#saturn {
+  background: transparent url(../imgs/saturn_text.png) no-repeat center center;
+  height: 228px;
+  top: -1800px; left: 2px;
+  width: 414px;
+}
+/* -------------------------------------------------
+D i v # j u p i t e r
+-------------------------------------------------- */
+div#jupiter {
+  background: transparent url(../imgs/jupiter_text.png) no-repeat center center;
+  height: 229px;
+  top: -3080px; left: 858px;
+  width: 437px;
+}
+/* -------------------------------------------------
+D i v # m a r s
+-------------------------------------------------- */
+div#mars {
+  background: transparent url(../imgs/mars_text.png) no-repeat center center;
+  height: 228px;
+  top: -4280px; left: 2px;
+  width: 343px;
+}
+/* -------------------------------------------------
+D i v # e a r t h
+-------------------------------------------------- */
+div#earth {
+  background: transparent url(../imgs/earth_text.png) no-repeat center center;
+  height: 228px;
+  top: -5530px; left: 920px;
+  width: 360px;
+}
+/* -------------------------------------------------
+S e c t i o n . h i d e
+-------------------------------------------------- */
+section.hide {
+  display: none;
+}
+/* -------------------------------------------------
+S e c t i o n . m o d a l
+-------------------------------------------------- */
+section.modal {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #bfbed7;
+  height: 100%;
+  position: fixed;
+  left: 0px; top: 0px;
+  width: 100%;
+  z-index: 9999;
+}
+/* -------------------------------------------------
+A r t i c l e . c o n t e n t
+-------------------------------------------------- */
+article.content {
+  background-color: #140e26;
+  border: 2px solid #5a5769;
+  border-radius: 6px;
+  margin: 100px auto;
+  padding: 20px;
+  width: 740px;
+}
+/* -------------------------------------------------
+A r t i c l e . c o n t e n t   h 1
+-------------------------------------------------- */
+article.content h1 {
+  padding-bottom: 10px;
+  border-bottom: 8px solid rgba(255, 255, 255, 0.2);
+}
+/* -------------------------------------------------
+A r t i c l e . c o n t e n t   h 1   s p a n
+-------------------------------------------------- */
+article.content h1 span {
+  color: #fff;
+}
+/* -------------------------------------------------
+F i g u r e . l o g o
+-------------------------------------------------- */
+figure.logo {
+  background: transparent url(../imgs/logo.png) no-repeat center center;
+  height: 96px;
+  margin: 10px auto;
+  width: 439px;
+}
+/* -------------------------------------------------
+B u t t o n . b t n
+-------------------------------------------------- */
+button.btn {
+  background-color: #1c153c;
+  border: 2px solid #d8bd5a;
+  border-radius: 50px;
+  font-weight: bold;
+  color: #fff;
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 360px;
+}
+/* -------------------------------------------------
+B u t t o n . b t n : h o v e r
+-------------------------------------------------- */
+button.btn:hover {
+  background-color: #211847;
+  cursor: pointer;
+}
+/* -------------------------------------------------
+F i g u r e . a s t e r o i d s
+-------------------------------------------------- */
+figure.asteroids {
+  background: transparent url(../imgs/asteroid.png) no-repeat center left;
+  height: 100px;
+  position: relative;
+  margin: 0px auto;
+  width: 100px;
+}
+/* -------------------------------------------------
+F i g u r e # a s t e r o i d 1
+-------------------------------------------------- */
+figure#asteroid1 {
+  top: 5500px;
+}
+/* -------------------------------------------------
+F i g u r e # a s t e r o i d 2
+-------------------------------------------------- */
+figure#asteroid2 {
+  top: 5300px;
+}
+/* -------------------------------------------------
+F i g u r e # a s t e r o i d 3
+-------------------------------------------------- */
+figure#asteroid3 {
+  top: 5100px;
+}
+/* -------------------------------------------------
+S e c t i o n # s t a r s
+-------------------------------------------------- */
+section#stars {
+  background: transparent url(../imgs/stars.png) no-repeat center center;
+  height: 5585px;
+  margin: 0px auto;
+  position: relative;
+  top: -6000px;
+  width: 986px;
+}
+
+/* --------------------------------------------- CUSTOM CSS ---------------------------------------------*/
+main#view {
+  height: 640px;
+  overflow: hidden;
+}
+section#bg {
+  top: -5356px;
+  z-index: 3333;
+}
+figure#spacecraft {
+  background-position: -11px center;
+  position: absolute;
+  top: 5900px;
+  -webkit-transition: left 0.3s ease-in-out, transform 0.1s ease-in-out;
+  z-index: 9999;
+}
+
+#planets div{
+  -webkit-transform: scale(0);
+  -webkit-transition: left 0.3s ease-in-out, transform 0.4s ease-in-out;
+}
+
+#fireball{
+  display: block;
+  background: url(../imgs/rocket.png) no-repeat center center/ 100% 100%;
+  width: 17px;
+  height: 32px;
+  position: relative;
+  top: 5800px;
+  margin: 0px auto;
+  -webkit-border-radius: 5px; 
+  opacity: 0;
+}
+
+.finalAnimation{
+  -webkit-animation: 4s finalAnimation ease-in-out;
+}
+.modal .content{
+  -webkit-animation: 1s modalAnimation ease-in-out;
+}
+
+@-webkit-keyframes finalAnimation{
+  0%{
+    -webkit-transform: translateX(0px) translateY(0px) rotate(-60deg);
+  }
+  20%{
+    -webkit-transform: translateX(-200px) translateY(0px) rotate(-45deg);
+  }
+  80%{
+    -webkit-transform: translateX(-400px) translateY(-200px) rotate(45deg);
+  }
+  100%{
+    -webkit-transform: translateX(1500px) translateY(-1500px) rotate(60deg);
+  }
+}
+
+@-webkit-keyframes modalAnimation{
+  0%{
+    -webkit-transform: scale(0) translateY(-250px);
+    opacity: 0;
+  }
+  100%{
+    -webkit-transform: scale(1) translateY(0px);
+    opacity: 1;
+  }
+}

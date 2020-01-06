@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Oscar Amado">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Galax</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+<div class="modal-dialog">
+    <div class="modal">
+        <div class="modal-header">
+            <img src="imgs/logo.png" alt="Logo">
+        </div>
+        <div class="modal-body">
+            <div class="start">
+                <h2>WELCOME</h2>
+                <p>
+                    Welcome to the Galax!, In this game you will visit some planets from solar system.
+                    <br>
+                    You must use the keys <span>“LEFT”</span> and <span>“RIGHT”</span> to the spacecraft can dodge asteroids.
+                    <br>
+                    You must use the <span>“SPACE”</span> to shoot and destroy asteroids.
+                    <br>
+                    Your goal is to reach the end of the space travel, dodging all the asteroids or destroying them.
+                </p>
+                <button id="start" class="btn">START</button>
+            </div>
+             <div class="congratulations">
+                <h2>CONGRATULATIONS</h2>
+                <p>
+                    You already visited planets from solar system!
+                    <br>
+                    You can play and visit again pressing the Restart Button!
+                </p>
+            </div>
+            <div class="failed">
+                <h2>GAMEOVER</h2>
+                <p>
+                    You didn’t visited all the planets of solar system...
+                    <br>
+                    Try again!
+                </p>
+            </div>
+            <button id="restart" class="btn">Restart</button>
+
+
+        </div>
+    </div>
+</div>
+<canvas id="canvas"></canvas>
+<script src="js/ofaa.js"></script>
+</body>
+</html>
